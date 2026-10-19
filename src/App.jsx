@@ -182,7 +182,7 @@ function App() {
   return <div className="site-shell">
     <header className="site-header">
       <div className="header-inner">
-        <button className="brand" onClick={() => go()} aria-label="Voltar para o início"><span className="brand-mark"><Icon name="spark" size={23} /></span><span>saúde<span className="brand-plus">já</span><small>SEU PLANO, SEU RITMO</small></span></button>
+        <button className="brand" onClick={() => go()} aria-label="Voltar para o início"><span className="brand-mark"><img src="/logo-saude-ja.png" alt="" /></span><span>saúde<span className="brand-plus">já</span><small>SEU PLANO, SEU RITMO</small></span></button>
         <nav className="main-nav" aria-label="Navegação principal">
           <button className={route.type === 'home' ? 'active' : ''} onClick={() => go()}>Início</button>
           <button className={route.type === 'diario' ? 'active' : ''} onClick={() => go('/diario')}>Meu dia</button>
